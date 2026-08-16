@@ -3,10 +3,11 @@ pipeline {
         node {
             label 'ROBOSHOP'
         }
+    }
         environment {
            COURSE = 'Jenkins'
         }
-    }
+    
     // build
     stages {
         stage('Build') {
