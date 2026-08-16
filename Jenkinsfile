@@ -5,6 +5,7 @@ pipeline {
         }
         environment {
            COURSE = 'Jenkins'
+        }
     }
     // build
     stages {
